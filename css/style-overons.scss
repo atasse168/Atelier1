@@ -173,3 +173,32 @@ footer {
 
         
     }
+    .heading, h2 {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .heading {
+        margin: 4rem;
+        color: $brandcolor2;
+        font-family: 'Rincoln';
+    }
+    .bi-people, .bi-rocket-takeoff, .bi-graph-up {
+        display: block;
+        margin: 0 auto;
+        width: 5.1875rem;
+        height: 5.1875rem;
+    }
+    p {
+        text-align: center;
+        font-family: 'swansea';
+    }
+    .start-heading {
+        text-align: start;
+    }
+    .symbol {
+        color: $brandcolor3;
+        font-size: 5rem;
+        line-height: 1;
+        display: inline-block;
+        
+    }
