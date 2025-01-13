@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #EDF8FF;
+  background-color: #edf8ff;
   font-family: "Rincoln" "swansea";
 }
 
@@ -22,11 +22,11 @@ body {
   transition: color 0.3s ease;
 }
 .navbar-nav .nav-item .nav-link:hover {
-  color: #006CB1;
+  color: #006cb1;
   text-decoration: none;
 }
 .navbar-nav .nav-item .nav-link.active {
-  color: #F00076;
+  color: #f00076;
 }
 
 .navbar-brand {
@@ -41,7 +41,7 @@ body {
 }
 
 .navbar {
-  background-color: #EDF8FF;
+  background-color: #edf8ff;
 }
 
 .copyright {
@@ -71,8 +71,8 @@ body {
 }
 
 footer {
-  background-color: #006CB1;
-  color: #EDF8FF;
+  background-color: #006cb1;
+  color: #edf8ff;
   padding: 2.5rem;
   text-align: start;
   font-family: "Rincoln", "swansea";
@@ -81,12 +81,12 @@ footer li {
   list-style: none;
 }
 footer a {
-  color: #EDF8FF;
+  color: #edf8ff;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 footer a:hover {
-  color: #F00076;
+  color: #f00076;
 }
 footer .footer-content {
   max-width: 1200px;
@@ -108,7 +108,7 @@ footer .cta {
   text-align: start;
   margin-top: 1.25rem;
   font-family: "swansea";
-  background-color: #EDF8FF;
+  background-color: #edf8ff;
   color: #000;
   border-radius: 1.875rem;
   gap: 0.625rem;
@@ -118,8 +118,8 @@ footer .cta {
   transition: background-color 0.3s;
 }
 footer .icon-circle {
-  background-color: #F00076;
-  color: #EDF8FF;
+  background-color: #f00076;
+  color: #edf8ff;
   border-radius: 50%;
   padding: 0.625rem;
   display: flex;
@@ -153,18 +153,21 @@ footer .icon-circle {
     justify-content: center;
   }
 }
-.heading, h2 {
+.heading,
+h2 {
   text-align: center;
   margin-bottom: 1rem;
 }
 
 .heading {
   margin: 4rem;
-  color: #006CB1;
+  color: #006cb1;
   font-family: "Rincoln";
 }
 
-.bi-people, .bi-rocket-takeoff, .bi-graph-up {
+.bi-people,
+.bi-rocket-takeoff,
+.bi-graph-up {
   display: block;
   margin: 0 auto;
   width: 5.1875rem;
@@ -181,7 +184,7 @@ p {
 }
 
 .symbol {
-  color: #F00076;
+  color: #f00076;
   font-size: 5rem;
   line-height: 1;
   display: inline-block;

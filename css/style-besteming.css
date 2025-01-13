@@ -8,6 +8,34 @@ body {
   font-family: "Rincoln" "swansea";
 }
 
+header {
+  width: 100%;
+  padding: 20px 0;
+}
+
+h1 {
+  font-family: "rincoln";
+  font-size: 2.9863rem;
+  line-height: 3rem;
+  color: #006CB1;
+}
+
+p {
+  font-family: "swansea";
+  font-size: 1.2rem;
+  line-height: 1.325rem;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
 .navbar-nav {
   color: #000;
 }
@@ -152,4 +180,84 @@ footer .icon-circle {
     text-align: center;
     justify-content: center;
   }
+}
+.container .row .col-md-4 .card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 0 3.75rem 0 3.75rem !important;
+  margin-bottom: 10rem;
+}
+
+.card-title1, .card-title2 {
+  margin: 0;
+  font-family: "rincoln";
+  font-size: 1.62rem;
+}
+
+.card-title1 {
+  background-color: #000;
+  border-radius: 3.75rem;
+  color: #EDF8FF;
+  padding: 0.5rem;
+}
+
+.card-title2 {
+  border: 0.0625rem solid #EDF8FF;
+  padding: 0.5rem;
+  border-radius: 3.75rem;
+  color: #EDF8FF;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.top-left {
+  align-self: flex-start;
+  top: 0.625rem;
+  left: 0.625rem;
+}
+
+.middle-circle {
+  position: absolute;
+  top: 0.625rem;
+  right: 0.625rem;
+  background-color: black;
+  border-radius: 50%;
+  padding: 10px;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 0.625rem;
+  left: 0.625rem;
+}
+
+.bottom-right {
+  align-self: flex-end;
+}
+
+.bi-star-fill {
+  color: #ffe641;
 }
